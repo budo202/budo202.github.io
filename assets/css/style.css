@@ -145,8 +145,7 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: #121212;
     left: -300px;
   }
 }
@@ -183,7 +182,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: Black;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -204,7 +203,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: White;
+  color: Black;
 }
 
 @media (min-width: 992px) {
@@ -217,7 +216,7 @@ h6 {
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color: #fff;
+    color: Black;
   }
 }
 
@@ -225,21 +224,21 @@ h6 {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #fff;
-  background: #0563bb;
+  color: Black;
+  background: #82A2C4;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #fff;
+  color: Black;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover>a {
   width: 100%;
-  color: #fff;
+  color: Black;
 }
 
 .nav-menu a:hover span,
@@ -267,7 +266,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: black;
 }
 
 .mobile-nav-active {
@@ -279,8 +278,8 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #fff;
-  background-color: #0563bb;
+  color: black;
+  background-color: #121212;
 }
 
 /*--------------------------------------------------------------
