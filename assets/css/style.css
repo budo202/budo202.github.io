@@ -413,7 +413,7 @@ section {
     background-attachment: local;
   }
 }
-.sectionmerchbg iframe {
+ iframe {
   margin: 20px 20px;
   width: 600px;
   height: 300px;
@@ -422,22 +422,20 @@ section {
   border: 0px;
  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .sectionmerchbg iframe {
+   iframe {
       margin: 15px 15px;
       width: 720px;
       height: 380px; }}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .sectionmerchbg iframe {
+  iframe {
         margin: 10px 10px;
       width: 620px;
       height: 380px; }}
   @media only screen and (max-width: 767px) {
-    .sectionmerchbg iframe {
+    iframe {
       margin: 5px 5px;
-      min-width: 410px;
-      min-height: 250px;
-      width: 410px;
-      height: 250px; } }
+      width: 320px;
+      height: 220px; } }
 
 .section-title {
   text-align: center;
