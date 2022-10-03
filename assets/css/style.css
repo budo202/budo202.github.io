@@ -761,6 +761,7 @@ margin-top: 35px;
 
 .musicsection .musicsection-wrap {
   transition: 0.3s;
+  margin-bottom: 25px;
   position: relative;
   overflow: hidden;
   z-index: 1;
