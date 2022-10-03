@@ -13,6 +13,27 @@ body {
   color: white;
   background-color: #121212;
 }
+iframe {
+ margin: 20px 20px;
+ width: 600px;
+ height: 300px;
+ border: 0px;
+}
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ iframe {
+     margin: 15px 15px;
+     width: 550px;
+     height: 290px; }}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+ iframe {
+       margin: 10px 10px;
+       width: 530px;
+       height: 260px; }}
+ @media only screen and (max-width: 767px) {
+   iframe {
+     margin: 5px 5px;
+     width: 390px;
+     height: 220px; } }
 
 a {
   color: #0563bb;
@@ -413,29 +434,6 @@ section {
     background-attachment: local;
   }
 }
- iframe {
-  margin: 20px 20px;
-  width: 600px;
-  height: 300px;
-  min-width: 410px;
-  min-height: 250px;
-  border: 0px;
- }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-   iframe {
-      margin: 15px 15px;
-      width: 720px;
-      height: 380px; }}
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-  iframe {
-        margin: 10px 10px;
-      width: 620px;
-      height: 380px; }}
-  @media only screen and (max-width: 767px) {
-    iframe {
-      margin: 5px 5px;
-      width: 320px;
-      height: 220px; } }
 
 .section-title {
   text-align: center;
