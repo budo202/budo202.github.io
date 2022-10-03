@@ -1603,8 +1603,6 @@ margin-top: 35px;
   width: 600px;
   height: 300px;
   position: relative;
-  filter: saturate(40%);
-  transition: 500ms;
  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .featured-trending-video {
@@ -1625,8 +1623,3 @@ margin-top: 35px;
       height: 250px; } }
   .featured-trending-video iframe {
     border-radius: 5px; }
-
-.featured-trending-video:hover{
-filter: saturate(100%);
-transform: scale(1.03);
-}
