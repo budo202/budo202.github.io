@@ -293,6 +293,11 @@ h6 {
   background-attachment: fixed;
   position: relative;
 }
+  @media only screen and (max-width: 767px) {
+    #hero{
+      background-attachment: local;
+    }
+  }
 
 @media (min-width: 992px) {
   #hero {
@@ -383,6 +388,15 @@ section {
   background-size: cover;
   background-attachment: fixed;
 }
+  @media only screen and (max-width: 767px) {
+    .sectionmusicbg {
+      padding: 60px 0;
+      overflow: hidden;
+      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.postimg.cc/jd0LDZKn/image00111.jpg') no-repeat center center;
+      background-size: cover;
+      background-attachment: local;
+    }
+  }
 .sectionmerchbg {
   padding: 60px 0;
   overflow: hidden;
@@ -390,6 +404,14 @@ section {
   background-size: cover;
   background-attachment: fixed;
 }
+@media only screen and (max-width: 767px) {
+  .sectionmerchbg {
+    padding: 60px 0;
+    overflow: hidden;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.postimg.cc/x87GmHfT/image00018.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: local;
+  }
 
 .section-title {
   text-align: center;
