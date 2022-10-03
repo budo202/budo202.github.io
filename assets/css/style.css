@@ -266,7 +266,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: black;
+  color: #fff;
 }
 
 .mobile-nav-active {
@@ -278,7 +278,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: black;
+  color: #fff;
   background-color: #121212;
 }
 
