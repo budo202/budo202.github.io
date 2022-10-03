@@ -1606,7 +1606,7 @@ margin-top: 35px;
  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .featured-trending-video {
-        margin: 15px 15px;
+      margin: 15px 15px;
       width: 720px;
       height: 380px; }}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1616,14 +1616,9 @@ margin-top: 35px;
       height: 380px; }}
   @media only screen and (max-width: 767px) {
     .featured-trending-video {
-      margin: 20px 20px;
-      width: 600px;
-      height: 300px;
-     }
-     .featured-trending-video:hover{
-     }
-    .featured-trending-video {
       margin: 5px 5px;
+      min-width: 300px;
+      min-height: 300px;
       width: 410px;
       height: 250px; } }
   .featured-trending-video iframe {
