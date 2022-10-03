@@ -1602,7 +1602,8 @@ margin-top: 35px;
   margin: 20px 20px;
   width: 600px;
   height: 300px;
-  position: relative;
+  min-width: 410px;
+  min-height: 250px;
  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .featured-trending-video {
@@ -1621,5 +1622,3 @@ margin-top: 35px;
       min-height: 250px;
       width: 410px;
       height: 250px; } }
-  .featured-trending-video iframe {
-    border-radius: 5px; }
