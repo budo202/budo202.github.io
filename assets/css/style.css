@@ -1604,6 +1604,7 @@ margin-top: 35px;
   height: 300px;
   min-width: 410px;
   min-height: 250px;
+  border: 0px;
  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .featured-trending-video {
