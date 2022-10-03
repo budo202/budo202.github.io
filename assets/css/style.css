@@ -1618,8 +1618,8 @@ margin-top: 35px;
   @media only screen and (max-width: 767px) {
     .featured-trending-video {
       margin: 5px 5px;
-      min-width: 300px;
-      min-height: 300px;
+      min-width: 410px;
+      min-height: 250px;
       width: 410px;
       height: 250px; } }
   .featured-trending-video iframe {
