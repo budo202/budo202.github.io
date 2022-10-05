@@ -304,7 +304,124 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# 404 Section
+# Merchandise
+--------------------------------------------------------------*/
+#merchandise{
+  width: 100%;
+  height: 600px;
+  background: url("https://i.postimg.cc/7Pt9FrMt/image00085.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+  @media only screen and (max-width: 767px) {
+    #class404{
+      background-attachment: local;
+    }
+  }
+
+@media (min-width: 992px) {
+  #merchandise {
+    padding-left: 160px;
+  }
+}
+
+#merchandise:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#merchandise button {
+  background-color: #82A2C4;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: hidden;
+    font-family: "Poppins", sans-serif;
+    transition: 800ms;
+}
+#merchandise button:hover {
+  background-color: #5A738B;
+  transform: scale(1.05);
+}
+@media only screen and (max-width: 767px) {
+  #merchandise button{
+    background-color: #82A2C4;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: hidden;
+      font-family: "Poppins", sans-serif;
+      transition: 800ms;
+  }
+}
+#merchandise h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+}
+
+#merchandise p {
+  color: white;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#merchandise p span {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#merchandise .social-links {
+  margin-top: 30px;
+}
+
+#merchandise .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  color: white;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#merchandise .social-links a:hover {
+  color: grey;
+}
+
+@media (max-width: 992px) {
+  #merchandise {
+    text-align: center;
+  }
+
+  #merchandise h1 {
+    font-size: 45px;
+    line-height: 36px;
+  }
+
+  #merchandise p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+/*--------------------------------------------------------------
+# Class 404
 --------------------------------------------------------------*/
 #class404{
   width: 100%;
@@ -423,6 +540,90 @@ h6 {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
+#merchshop {
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.postimg.cc/gk9QQ77w/image00007.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+  @media only screen and (max-width: 767px) {
+    #merchshop{
+      background-attachment: local;
+    }
+  }
+
+@media (min-width: 992px) {
+  #merchshop {
+    padding-left: 160px;
+  }
+}
+
+#merchshop:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#merchshop h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+}
+
+#merchshop p {
+  color: white;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#merchshop p span {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#merchshop .social-links {
+  margin-top: 30px;
+}
+
+#merchshop .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  color: white;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#merchshop .social-links a:hover {
+  color: grey;
+}
+
+@media (max-width: 992px) {
+  #merchshop {
+    text-align: center;
+  }
+
+  #merchshop h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  #merchshop p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
 #hero {
   width: 100%;
   height: 100vh;
