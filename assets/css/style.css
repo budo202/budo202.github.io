@@ -36,12 +36,13 @@ iframe {
      height: 210px; } }
 
 a {
-  color: #0563bb;
+  color: #fff;
   text-decoration: none;
+  transition: 500ms;
 }
 
 a:hover {
-  color: #067ded;
+  color: grey;
   text-decoration: none;
 }
 
@@ -579,6 +580,12 @@ h6 {
 }
 
 #merchshop p {
+  color: white;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#merchshop a {
   color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
